@@ -13,5 +13,8 @@
     "bugs": {
         "url": "https://github.com/dmateiu/graphql-mercurius/issues"
     },
-    "homepage": "https://github.com/dmateiu/graphql-mercurius#readme"
+    "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
+    "devDependencies": {
+        "typescript": "^4.2.4"
+    }
 }
