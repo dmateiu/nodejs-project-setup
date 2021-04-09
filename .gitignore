@@ -6,3 +6,6 @@ node_modules/
 
 # Application build / generate output
 dist
+
+# Lint cache
+.eslintcache
