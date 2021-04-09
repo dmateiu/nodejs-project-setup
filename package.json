@@ -14,6 +14,9 @@
         "url": "https://github.com/dmateiu/graphql-mercurius/issues"
     },
     "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
+    "scripts": {
+        "build": "tsc"
+    },
     "devDependencies": {
         "typescript": "^4.2.4"
     }
