@@ -15,7 +15,8 @@
     },
     "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "prepare": "husky install"
     },
     "devDependencies": {
         "husky": "^6.0.0",
