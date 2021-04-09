@@ -16,6 +16,8 @@
     "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
     "scripts": {
         "build": "tsc",
+        "lint": "eslint . --cache --ext .ts",
+        "lint:fix": "eslint . --cache --ext .ts --fix",
         "prepare": "husky install"
     },
     "devDependencies": {
