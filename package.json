@@ -1,0 +1,17 @@
+{
+    "name": "graphql-mercurius",
+    "version": "0.0.1",
+    "description": "GraphQL API based on mercurius",
+    "license": "UNLICENSED",
+    "engines": {
+        "node": "^14.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmateiu/graphql-mercurius.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dmateiu/graphql-mercurius/issues"
+    },
+    "homepage": "https://github.com/dmateiu/graphql-mercurius#readme"
+}
