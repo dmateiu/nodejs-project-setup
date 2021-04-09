@@ -3,3 +3,6 @@
 
 # Dependency directory
 node_modules/
+
+# Application build / generate output
+dist
