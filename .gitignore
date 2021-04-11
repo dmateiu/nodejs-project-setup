@@ -9,3 +9,6 @@ dist
 
 # Lint cache
 .eslintcache
+
+# dotenv environment variables files for local development
+.env.*.local
