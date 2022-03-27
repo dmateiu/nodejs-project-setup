@@ -1,55 +1,55 @@
 {
-    "name": "graphql-mercurius",
-    "version": "0.0.1",
-    "description": "GraphQL API based on mercurius",
-    "license": "UNLICENSED",
-    "main": "dist/index.js",
-    "engines": {
-        "node": "^14.16"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/dmateiu/graphql-mercurius.git"
-    },
-    "bugs": {
-        "url": "https://github.com/dmateiu/graphql-mercurius/issues"
-    },
-    "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
-    "scripts": {
-        "build": "tsc",
-        "dev": "nodemon",
-        "license-check": "license-checker --summary --failOn 'AGPL-3.0;EPL-1.0;GPL-1.0-or-later;GPL-2.0-or-later;GPL-3.0-or-later;LGPL-2.0+;LGPL-2.1+;LGPL-3.0-or-later;LGPL-3.0+;MPL-1.0;MPL-1.1;MPL-2.0;MS-RL;NGPL;ODbL-1.0;OSL-3.0;RPL-1.1;RPL-1.5;RPSL-1.0' --production",
-        "lint": "eslint . --cache --ext .ts --max-warnings 0",
-        "lint:fix": "eslint . --cache --ext .ts --fix",
-        "prepare": "husky install",
-        "start": "node dist/index.js",
-        "test": "NODE_ENV=test jest",
-        "upgrade-interactive": "npm-check --update && npm run build && npm run test "
-    },
-    "dependencies": {
-        "dotenv-flow": "^3.2.0"
-    },
-    "devDependencies": {
-        "@commitlint/cli": "^16.2.3",
-        "@commitlint/config-conventional": "^16.2.1",
-        "@types/dotenv-flow": "^3.2.0",
-        "@types/jest": "^27.4.1",
-        "@typescript-eslint/eslint-plugin": "^5.16.0",
-        "@typescript-eslint/parser": "^5.16.0",
-        "eslint": "^8.12.0",
-        "eslint-plugin-editorconfig": "^3.2.0",
-        "eslint-plugin-import": "^2.25.4",
-        "eslint-plugin-promise": "^6.0.0",
-        "eslint-plugin-simple-import-sort": "^7.0.0",
-        "eslint-plugin-sonarjs": "^0.12.0",
-        "eslint-plugin-unused-imports": "^2.0.0",
-        "husky": "^7.0.4",
-        "jest": "^27.5.1",
-        "license-checker": "^25.0.1",
-        "lint-staged": "^12.3.7",
-        "nodemon": "^2.0.15",
-        "npm-check": "^5.9.2",
-        "ts-jest": "^27.1.4",
-        "typescript": "^4.6.3"
-    }
+  "name": "graphql-mercurius",
+  "version": "0.0.1",
+  "description": "GraphQL API based on mercurius",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "^14.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmateiu/graphql-mercurius.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmateiu/graphql-mercurius/issues"
+  },
+  "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "license-check": "license-checker --summary --failOn 'AGPL-3.0;EPL-1.0;GPL-1.0-or-later;GPL-2.0-or-later;GPL-3.0-or-later;LGPL-2.0+;LGPL-2.1+;LGPL-3.0-or-later;LGPL-3.0+;MPL-1.0;MPL-1.1;MPL-2.0;MS-RL;NGPL;ODbL-1.0;OSL-3.0;RPL-1.1;RPL-1.5;RPSL-1.0' --production",
+    "lint": "eslint . --cache --ext .ts --max-warnings 0",
+    "lint:fix": "eslint . --cache --ext .ts --fix",
+    "prepare": "husky install",
+    "start": "node dist/index.js",
+    "test": "NODE_ENV=test jest",
+    "upgrade-interactive": "npm-check --update && npm run build && npm run test "
+  },
+  "dependencies": {
+    "dotenv-flow": "^3.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@types/dotenv-flow": "^3.2.0",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.12.0",
+    "eslint-plugin-editorconfig": "^3.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.12.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "license-checker": "^25.0.1",
+    "lint-staged": "^12.3.7",
+    "nodemon": "^2.0.15",
+    "npm-check": "^5.9.2",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
 }
