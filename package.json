@@ -4,7 +4,8 @@
   "description": "GraphQL API based on mercurius",
   "license": "UNLICENSED",
   "engines": {
-    "node": "^14.16"
+    "node": "^18",
+    "npm": "^8"
   },
   "repository": {
     "type": "git",
