@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "GraphQL API based on mercurius",
   "license": "UNLICENSED",
-  "main": "dist/index.js",
   "engines": {
     "node": "^14.16"
   },
