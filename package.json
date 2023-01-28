@@ -1,21 +1,13 @@
 {
-  "name": "graphql-mercurius",
+  "name": "<Insert Name>",
   "version": "0.0.1",
-  "description": "GraphQL API based on mercurius",
+  "description": "<Insert Description>",
   "license": "UNLICENSED",
   "engines": {
     "node": "^18",
     "npm": "^8"
   },
   "packageManager": "npm@8.19.2",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dmateiu/graphql-mercurius.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dmateiu/graphql-mercurius/issues"
-  },
-  "homepage": "https://github.com/dmateiu/graphql-mercurius#readme",
   "scripts": {
     "build": "tsc",
     "coveralls": "NODE_ENV=test jest .test.ts --coverage && coveralls < coverage/lcov.info",
