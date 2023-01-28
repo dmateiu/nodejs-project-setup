@@ -16,6 +16,7 @@
     "lint": "eslint . --cache --ext .ts --max-warnings 0",
     "lint:fix": "eslint . --cache --ext .ts --fix",
     "prepare": "husky install",
+    "release": "standard-version",
     "start": "node dist/index.js",
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "NODE_ENV=test jest .test.ts",
